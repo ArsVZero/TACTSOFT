@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Program to Display Hello, World!", "Program to Display Hello, World!\Program to Display Hello, World!.csproj", "{2134BEDF-1C70-46A3-90F5-DFECDDF312A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Program to Print an Integer", "Program to Print an Integer\Program to Print an Integer.csproj", "{514EBEB0-E96B-42E4-8C97-0BDA52DCE37A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Program to Add Two Integers", "Program to Add Two Integers\Program to Add Two Integers.csproj", "{921BE120-21C1-42DC-BE00-2D4A727B2C86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Program to Multiply Two Numbers", "Program to Multiply Two Numbers\Program to Multiply Two Numbers.csproj", "{8D1BE79E-3E74-4885-9EFE-4DB1E2511F33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Program to Print ASCII Value", "Program to Print ASCII Value\Program to Print ASCII Value.csproj", "{4CE405A0-38EA-4293-B744-89065CD1D46C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Program to Compute Quotient and Remainder", "Program to Compute Quotient and Remainder\Program to Compute Quotient and Remainder.csproj", "{6414F443-D25A-4F6E-9398-844A1B277C16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Program to Find the Size and Range of Data Types", "Program to Find the Size and Range of Data Types\Program to Find the Size and Range of Data Types.csproj", "{AB048C44-E283-4BCC-BC4E-E86AF5D6E485}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swap Numbers Using Temporary Variable", "Swap Numbers Using Temporary Variable\Swap Numbers Using Temporary Variable.csproj", "{0C807C56-DC90-4FB2-9862-EBF788805240}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swap Numbers Without Using Temporary Variables", "Swap Numbers Without Using Temporary Variables\Swap Numbers Without Using Temporary Variables.csproj", "{EEE2114B-8290-4D5D-ABCC-9A02806FAAB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Program to Find GCD and LCM of two Numbers", "Program to Find GCD and LCM of two Numbers\Program to Find GCD and LCM of two Numbers.csproj", "{4157F893-EC94-45A8-BAB5-5B61942789B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2134BEDF-1C70-46A3-90F5-DFECDDF312A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2134BEDF-1C70-46A3-90F5-DFECDDF312A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2134BEDF-1C70-46A3-90F5-DFECDDF312A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2134BEDF-1C70-46A3-90F5-DFECDDF312A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{514EBEB0-E96B-42E4-8C97-0BDA52DCE37A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{514EBEB0-E96B-42E4-8C97-0BDA52DCE37A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{514EBEB0-E96B-42E4-8C97-0BDA52DCE37A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{514EBEB0-E96B-42E4-8C97-0BDA52DCE37A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{921BE120-21C1-42DC-BE00-2D4A727B2C86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{921BE120-21C1-42DC-BE00-2D4A727B2C86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{921BE120-21C1-42DC-BE00-2D4A727B2C86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{921BE120-21C1-42DC-BE00-2D4A727B2C86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D1BE79E-3E74-4885-9EFE-4DB1E2511F33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D1BE79E-3E74-4885-9EFE-4DB1E2511F33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D1BE79E-3E74-4885-9EFE-4DB1E2511F33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D1BE79E-3E74-4885-9EFE-4DB1E2511F33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CE405A0-38EA-4293-B744-89065CD1D46C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CE405A0-38EA-4293-B744-89065CD1D46C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CE405A0-38EA-4293-B744-89065CD1D46C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CE405A0-38EA-4293-B744-89065CD1D46C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6414F443-D25A-4F6E-9398-844A1B277C16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6414F443-D25A-4F6E-9398-844A1B277C16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6414F443-D25A-4F6E-9398-844A1B277C16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6414F443-D25A-4F6E-9398-844A1B277C16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB048C44-E283-4BCC-BC4E-E86AF5D6E485}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB048C44-E283-4BCC-BC4E-E86AF5D6E485}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB048C44-E283-4BCC-BC4E-E86AF5D6E485}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB048C44-E283-4BCC-BC4E-E86AF5D6E485}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C807C56-DC90-4FB2-9862-EBF788805240}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C807C56-DC90-4FB2-9862-EBF788805240}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C807C56-DC90-4FB2-9862-EBF788805240}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C807C56-DC90-4FB2-9862-EBF788805240}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEE2114B-8290-4D5D-ABCC-9A02806FAAB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEE2114B-8290-4D5D-ABCC-9A02806FAAB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEE2114B-8290-4D5D-ABCC-9A02806FAAB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEE2114B-8290-4D5D-ABCC-9A02806FAAB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4157F893-EC94-45A8-BAB5-5B61942789B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4157F893-EC94-45A8-BAB5-5B61942789B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4157F893-EC94-45A8-BAB5-5B61942789B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4157F893-EC94-45A8-BAB5-5B61942789B4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {01B7AC3A-62A2-4E0B-99E6-912B1F5118EC}
+	EndGlobalSection
+EndGlobal
