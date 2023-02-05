@@ -3,25 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Program to Display Hello, World!", "Program to Display Hello, World!\Program to Display Hello, World!.csproj", "{2134BEDF-1C70-46A3-90F5-DFECDDF312A5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Program to Print an Integer", "Program to Print an Integer\Program to Print an Integer.csproj", "{514EBEB0-E96B-42E4-8C97-0BDA52DCE37A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Program to Add Two Integers", "Program to Add Two Integers\Program to Add Two Integers.csproj", "{921BE120-21C1-42DC-BE00-2D4A727B2C86}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Program to Multiply Two Numbers", "Program to Multiply Two Numbers\Program to Multiply Two Numbers.csproj", "{8D1BE79E-3E74-4885-9EFE-4DB1E2511F33}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Program to Print ASCII Value", "Program to Print ASCII Value\Program to Print ASCII Value.csproj", "{4CE405A0-38EA-4293-B744-89065CD1D46C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Program to Compute Quotient and Remainder", "Program to Compute Quotient and Remainder\Program to Compute Quotient and Remainder.csproj", "{6414F443-D25A-4F6E-9398-844A1B277C16}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Program to Find the Size and Range of Data Types", "Program to Find the Size and Range of Data Types\Program to Find the Size and Range of Data Types.csproj", "{AB048C44-E283-4BCC-BC4E-E86AF5D6E485}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Swap Numbers Using Temporary Variable", "Swap Numbers Using Temporary Variable\Swap Numbers Using Temporary Variable.csproj", "{0C807C56-DC90-4FB2-9862-EBF788805240}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Swap Numbers Without Using Temporary Variables", "Swap Numbers Without Using Temporary Variables\Swap Numbers Without Using Temporary Variables.csproj", "{EEE2114B-8290-4D5D-ABCC-9A02806FAAB1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Program to Find GCD and LCM of two Numbers", "Program to Find GCD and LCM of two Numbers\Program to Find GCD and LCM of two Numbers.csproj", "{4157F893-EC94-45A8-BAB5-5B61942789B4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Program to Check Odd or Even", "Program to Check Odd or Even Using the Ternary Operator\Program to Check Odd or Even.csproj", "{00A71DE1-30B0-40E4-9D1F-12E03AF72D24}"
 EndProject
