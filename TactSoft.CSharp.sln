@@ -3,45 +3,45 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Program to Display Hello, World!", "Program to Display Hello, World!\Program to Display Hello, World!.csproj", "{2134BEDF-1C70-46A3-90F5-DFECDDF312A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Program to Check Odd or Even", "Program to Check Odd or Even Using the Ternary Operator\Program to Check Odd or Even.csproj", "{00A71DE1-30B0-40E4-9D1F-12E03AF72D24}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Program to Print an Integer", "Program to Print an Integer\Program to Print an Integer.csproj", "{514EBEB0-E96B-42E4-8C97-0BDA52DCE37A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Program to Check Vowel or consonant", "Program to Check Vowel or consonant\Program to Check Vowel or consonant.csproj", "{8832B56D-B475-4AC7-9838-E1906C8C2C19}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Program to Add Two Integers", "Program to Add Two Integers\Program to Add Two Integers.csproj", "{921BE120-21C1-42DC-BE00-2D4A727B2C86}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Program to Find the Largest Number Among Three Numbers", "Program to Find the Largest Number Among Three Numbers\Program to Find the Largest Number Among Three Numbers.csproj", "{DB0B793C-D7B9-4EC3-86E9-86698F6DD250}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Program to Multiply Two Numbers", "Program to Multiply Two Numbers\Program to Multiply Two Numbers.csproj", "{8D1BE79E-3E74-4885-9EFE-4DB1E2511F33}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Program to Find Roots of a Quadratic Equation", "Program to Find Roots of a Quadratic Equation\Program to Find Roots of a Quadratic Equation.csproj", "{6BCAC9AD-BFC9-4C63-9FF2-F8D2FB9158DB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Program to Print ASCII Value", "Program to Print ASCII Value\Program to Print ASCII Value.csproj", "{4CE405A0-38EA-4293-B744-89065CD1D46C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Program to Check Leap Year", "Program to Check Leap Year\Program to Check Leap Year.csproj", "{73B9CB5C-ADCC-4DE0-BBDF-E68D4BAD85C3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Program to Compute Quotient and Remainder", "Program to Compute Quotient and Remainder\Program to Compute Quotient and Remainder.csproj", "{6414F443-D25A-4F6E-9398-844A1B277C16}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Program to Check Whether a Number is Positive or Negative", "Program to Check Whether a Number is Positive or Negative\Program to Check Whether a Number is Positive or Negative.csproj", "{8C8CFF9E-5DE8-49B1-85E7-8173773D4F81}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Program to Find the Size and Range of Data Types", "Program to Find the Size and Range of Data Types\Program to Find the Size and Range of Data Types.csproj", "{AB048C44-E283-4BCC-BC4E-E86AF5D6E485}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sum of Natural Numbers Using for Loop", "Sum of Natural Numbers Using for Loop\Sum of Natural Numbers Using for Loop.csproj", "{06D60B57-98CB-45EC-A100-2D2D71FBC02F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Swap Numbers Using Temporary Variable", "Swap Numbers Using Temporary Variable\Swap Numbers Using Temporary Variable.csproj", "{0C807C56-DC90-4FB2-9862-EBF788805240}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sum of Natural Numbers Using while Loop", "Sum of Natural Numbers Using while Loop\Sum of Natural Numbers Using while Loop.csproj", "{80DEF67B-BA33-4657-8163-5E760EEB9954}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Swap Numbers Without Using Temporary Variables", "Swap Numbers Without Using Temporary Variables\Swap Numbers Without Using Temporary Variables.csproj", "{EEE2114B-8290-4D5D-ABCC-9A02806FAAB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factorial of a Number", "Factorial of a Number\Factorial of a Number.csproj", "{A136EB5E-A52A-4241-8A56-615AC8A564D0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Program to Find GCD and LCM of two Numbers", "Program to Find GCD and LCM of two Numbers\Program to Find GCD and LCM of two Numbers.csproj", "{4157F893-EC94-45A8-BAB5-5B61942789B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Multiplication Table", "Multiplication Table Up to N\Multiplication Table.csproj", "{F6E2C513-682C-4CD9-99E1-B30A9D7ED979}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Program to Check Odd or Even", "Program to Check Odd or Even Using the Ternary Operator\Program to Check Odd or Even.csproj", "{00A71DE1-30B0-40E4-9D1F-12E03AF72D24}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibonacci Series up to N terms", "Fibonacci Series up to N terms\Fibonacci Series up to N terms.csproj", "{A6D0A344-32D9-4DC1-94E7-F6592592774C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Program to Check Vowel or consonant", "Program to Check Vowel or consonant\Program to Check Vowel or consonant.csproj", "{8832B56D-B475-4AC7-9838-E1906C8C2C19}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Program to Print English Alphabets", "Program to Print English Alphabets\Program to Print English Alphabets.csproj", "{FF5CEA15-A0FE-438B-8F54-BC24016620E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Program to Find the Largest Number Among Three Numbers", "Program to Find the Largest Number Among Three Numbers\Program to Find the Largest Number Among Three Numbers.csproj", "{DB0B793C-D7B9-4EC3-86E9-86698F6DD250}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Program to Count the Number of Digits", "Program to Count the Number of Digits\Program to Count the Number of Digits.csproj", "{64EC7CA9-F503-4CC5-B2D2-1A09DDFADC98}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Program to Find Roots of a Quadratic Equation", "Program to Find Roots of a Quadratic Equation\Program to Find Roots of a Quadratic Equation.csproj", "{6BCAC9AD-BFC9-4C63-9FF2-F8D2FB9158DB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reverse an Integer", "Reverse an Integer\Reverse an Integer.csproj", "{7572B20E-A319-4749-A190-7FE2A280D849}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Program to Check Leap Year", "Program to Check Leap Year\Program to Check Leap Year.csproj", "{73B9CB5C-ADCC-4DE0-BBDF-E68D4BAD85C3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Program to Calculate the Power of a Number", "Program to Calculate the Power of a Number\Program to Calculate the Power of a Number.csproj", "{8B5D625C-E579-4920-810E-AFF8F5D7A805}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Program to Check Whether a Number is Positive or Negative", "Program to Check Whether a Number is Positive or Negative\Program to Check Whether a Number is Positive or Negative.csproj", "{8C8CFF9E-5DE8-49B1-85E7-8173773D4F81}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Power of a Number Using the while Loop", "Power of a Number Using the while Loop\Power of a Number Using the while Loop.csproj", "{0A6C40C3-50A0-45D1-BE27-9A48EFCA6236}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sum of Natural Numbers Using for Loop", "Sum of Natural Numbers Using for Loop\Sum of Natural Numbers Using for Loop.csproj", "{06D60B57-98CB-45EC-A100-2D2D71FBC02F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Program to Check Palindrome", "Program to Check Palindrome\Program to Check Palindrome.csproj", "{5EE6CA18-FB85-45DC-B367-A8C9170176FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sum of Natural Numbers Using while Loop", "Sum of Natural Numbers Using while Loop\Sum of Natural Numbers Using while Loop.csproj", "{80DEF67B-BA33-4657-8163-5E760EEB9954}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Program to Check Prime Number", "Program to Check Prime Number\Program to Check Prime Number.csproj", "{9C10DCE1-0189-4D8A-9541-E8A2C997B8B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factorial of a Number", "Factorial of a Number\Factorial of a Number.csproj", "{A136EB5E-A52A-4241-8A56-615AC8A564D0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Program to Display Prime Numbers Between Two Intervals", "Program to Display Prime Numbers Between Two Intervals\Program to Display Prime Numbers Between Two Intervals.csproj", "{82FADABE-36AE-4766-B0C7-3EA754018BB8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multiplication Table", "Multiplication Table Up to N\Multiplication Table.csproj", "{F6E2C513-682C-4CD9-99E1-B30A9D7ED979}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factors of a Positive Integer", "Factors of a Positive Integer\Factors of a Positive Integer.csproj", "{4F560F03-EF2B-4BA5-9874-7852884D0FF1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,46 +49,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2134BEDF-1C70-46A3-90F5-DFECDDF312A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2134BEDF-1C70-46A3-90F5-DFECDDF312A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2134BEDF-1C70-46A3-90F5-DFECDDF312A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2134BEDF-1C70-46A3-90F5-DFECDDF312A5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{514EBEB0-E96B-42E4-8C97-0BDA52DCE37A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{514EBEB0-E96B-42E4-8C97-0BDA52DCE37A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{514EBEB0-E96B-42E4-8C97-0BDA52DCE37A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{514EBEB0-E96B-42E4-8C97-0BDA52DCE37A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{921BE120-21C1-42DC-BE00-2D4A727B2C86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{921BE120-21C1-42DC-BE00-2D4A727B2C86}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{921BE120-21C1-42DC-BE00-2D4A727B2C86}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{921BE120-21C1-42DC-BE00-2D4A727B2C86}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8D1BE79E-3E74-4885-9EFE-4DB1E2511F33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8D1BE79E-3E74-4885-9EFE-4DB1E2511F33}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8D1BE79E-3E74-4885-9EFE-4DB1E2511F33}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8D1BE79E-3E74-4885-9EFE-4DB1E2511F33}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4CE405A0-38EA-4293-B744-89065CD1D46C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4CE405A0-38EA-4293-B744-89065CD1D46C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4CE405A0-38EA-4293-B744-89065CD1D46C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4CE405A0-38EA-4293-B744-89065CD1D46C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6414F443-D25A-4F6E-9398-844A1B277C16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6414F443-D25A-4F6E-9398-844A1B277C16}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6414F443-D25A-4F6E-9398-844A1B277C16}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6414F443-D25A-4F6E-9398-844A1B277C16}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AB048C44-E283-4BCC-BC4E-E86AF5D6E485}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AB048C44-E283-4BCC-BC4E-E86AF5D6E485}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AB048C44-E283-4BCC-BC4E-E86AF5D6E485}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AB048C44-E283-4BCC-BC4E-E86AF5D6E485}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0C807C56-DC90-4FB2-9862-EBF788805240}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0C807C56-DC90-4FB2-9862-EBF788805240}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0C807C56-DC90-4FB2-9862-EBF788805240}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0C807C56-DC90-4FB2-9862-EBF788805240}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EEE2114B-8290-4D5D-ABCC-9A02806FAAB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EEE2114B-8290-4D5D-ABCC-9A02806FAAB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EEE2114B-8290-4D5D-ABCC-9A02806FAAB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EEE2114B-8290-4D5D-ABCC-9A02806FAAB1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4157F893-EC94-45A8-BAB5-5B61942789B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4157F893-EC94-45A8-BAB5-5B61942789B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4157F893-EC94-45A8-BAB5-5B61942789B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4157F893-EC94-45A8-BAB5-5B61942789B4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{00A71DE1-30B0-40E4-9D1F-12E03AF72D24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{00A71DE1-30B0-40E4-9D1F-12E03AF72D24}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00A71DE1-30B0-40E4-9D1F-12E03AF72D24}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -129,6 +89,46 @@ Global
 		{F6E2C513-682C-4CD9-99E1-B30A9D7ED979}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6E2C513-682C-4CD9-99E1-B30A9D7ED979}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F6E2C513-682C-4CD9-99E1-B30A9D7ED979}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6D0A344-32D9-4DC1-94E7-F6592592774C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6D0A344-32D9-4DC1-94E7-F6592592774C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6D0A344-32D9-4DC1-94E7-F6592592774C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6D0A344-32D9-4DC1-94E7-F6592592774C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF5CEA15-A0FE-438B-8F54-BC24016620E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF5CEA15-A0FE-438B-8F54-BC24016620E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF5CEA15-A0FE-438B-8F54-BC24016620E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF5CEA15-A0FE-438B-8F54-BC24016620E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64EC7CA9-F503-4CC5-B2D2-1A09DDFADC98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64EC7CA9-F503-4CC5-B2D2-1A09DDFADC98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64EC7CA9-F503-4CC5-B2D2-1A09DDFADC98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64EC7CA9-F503-4CC5-B2D2-1A09DDFADC98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7572B20E-A319-4749-A190-7FE2A280D849}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7572B20E-A319-4749-A190-7FE2A280D849}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7572B20E-A319-4749-A190-7FE2A280D849}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7572B20E-A319-4749-A190-7FE2A280D849}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B5D625C-E579-4920-810E-AFF8F5D7A805}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B5D625C-E579-4920-810E-AFF8F5D7A805}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B5D625C-E579-4920-810E-AFF8F5D7A805}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B5D625C-E579-4920-810E-AFF8F5D7A805}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A6C40C3-50A0-45D1-BE27-9A48EFCA6236}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A6C40C3-50A0-45D1-BE27-9A48EFCA6236}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A6C40C3-50A0-45D1-BE27-9A48EFCA6236}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A6C40C3-50A0-45D1-BE27-9A48EFCA6236}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EE6CA18-FB85-45DC-B367-A8C9170176FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EE6CA18-FB85-45DC-B367-A8C9170176FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EE6CA18-FB85-45DC-B367-A8C9170176FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EE6CA18-FB85-45DC-B367-A8C9170176FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C10DCE1-0189-4D8A-9541-E8A2C997B8B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C10DCE1-0189-4D8A-9541-E8A2C997B8B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C10DCE1-0189-4D8A-9541-E8A2C997B8B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C10DCE1-0189-4D8A-9541-E8A2C997B8B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82FADABE-36AE-4766-B0C7-3EA754018BB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82FADABE-36AE-4766-B0C7-3EA754018BB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82FADABE-36AE-4766-B0C7-3EA754018BB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82FADABE-36AE-4766-B0C7-3EA754018BB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F560F03-EF2B-4BA5-9874-7852884D0FF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F560F03-EF2B-4BA5-9874-7852884D0FF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F560F03-EF2B-4BA5-9874-7852884D0FF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F560F03-EF2B-4BA5-9874-7852884D0FF1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
