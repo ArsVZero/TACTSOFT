@@ -23,6 +23,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Swap Numbers Without Using 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Program to Find GCD and LCM of two Numbers", "Program to Find GCD and LCM of two Numbers\Program to Find GCD and LCM of two Numbers.csproj", "{4157F893-EC94-45A8-BAB5-5B61942789B4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Program to Check Odd or Even", "Program to Check Odd or Even Using the Ternary Operator\Program to Check Odd or Even.csproj", "{00A71DE1-30B0-40E4-9D1F-12E03AF72D24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Program to Check Vowel or consonant", "Program to Check Vowel or consonant\Program to Check Vowel or consonant.csproj", "{8832B56D-B475-4AC7-9838-E1906C8C2C19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Program to Find the Largest Number Among Three Numbers", "Program to Find the Largest Number Among Three Numbers\Program to Find the Largest Number Among Three Numbers.csproj", "{DB0B793C-D7B9-4EC3-86E9-86698F6DD250}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Program to Find Roots of a Quadratic Equation", "Program to Find Roots of a Quadratic Equation\Program to Find Roots of a Quadratic Equation.csproj", "{6BCAC9AD-BFC9-4C63-9FF2-F8D2FB9158DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Program to Check Leap Year", "Program to Check Leap Year\Program to Check Leap Year.csproj", "{73B9CB5C-ADCC-4DE0-BBDF-E68D4BAD85C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Program to Check Whether a Number is Positive or Negative", "Program to Check Whether a Number is Positive or Negative\Program to Check Whether a Number is Positive or Negative.csproj", "{8C8CFF9E-5DE8-49B1-85E7-8173773D4F81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sum of Natural Numbers Using for Loop", "Sum of Natural Numbers Using for Loop\Sum of Natural Numbers Using for Loop.csproj", "{06D60B57-98CB-45EC-A100-2D2D71FBC02F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sum of Natural Numbers Using while Loop", "Sum of Natural Numbers Using while Loop\Sum of Natural Numbers Using while Loop.csproj", "{80DEF67B-BA33-4657-8163-5E760EEB9954}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factorial of a Number", "Factorial of a Number\Factorial of a Number.csproj", "{A136EB5E-A52A-4241-8A56-615AC8A564D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multiplication Table", "Multiplication Table Up to N\Multiplication Table.csproj", "{F6E2C513-682C-4CD9-99E1-B30A9D7ED979}"
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Program to Check Odd or Even", "Program to Check Odd or Even Using the Ternary Operator\Program to Check Odd or Even.csproj", "{00A71DE1-30B0-40E4-9D1F-12E03AF72D24}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Program to Check Vowel or consonant", "Program to Check Vowel or consonant\Program to Check Vowel or consonant.csproj", "{8832B56D-B475-4AC7-9838-E1906C8C2C19}"
