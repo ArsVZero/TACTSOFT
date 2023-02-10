@@ -1,1 +1,1 @@
-# TactSoft.Training
+# TactSoft Training Practices
