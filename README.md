@@ -1,1 +1,1 @@
-# TactSoft Training Practices
+# TactSoft Training Practices and Assignments
