@@ -18,3 +18,14 @@
     width: 75px;
     height: auto;
 }
+
+.subscribe{
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.brand-icon img{
+    width: 150px;
+    height: auto;
+}
