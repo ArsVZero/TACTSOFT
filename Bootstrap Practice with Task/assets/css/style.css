@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-brand img {
+    width: 150px;
+}
+
+.full-width {
+    width: 100%;
+    height: auto;
+}
+
+.feature-item img {
+    width: 75px;
+    height: auto;
+}
+
+.subscribe{
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.brand-icon img{
+    width: 150px;
+    height: auto;
+}
+
+.copy,.mobile-padding{
+    background-color: #333333;
+}
+
+.blur-filter{
+    backdrop-filter: blur(7.5px);
+    background-color: rgba(255, 255, 255, 0.25);
+}
