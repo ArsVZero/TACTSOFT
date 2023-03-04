@@ -40,13 +40,13 @@
                             <a href="courses.html" class="nav-link">Courses</a>
                         </li>
                         <li class="nav-item">
-                            <a href="blog.html" class="nav-link active">Blog</a>
+                            <a href="blog.html" class="nav-link">Blog</a>
                         </li>
                         <li class="nav-item">
                             <a href="faq.html" class="nav-link">FAQ's</a>
                         </li>
                         <li class="nav-item">
-                            <a href="contact.html" class="nav-link">Contact</a>
+                            <a href="contact.html" class="nav-link active">Contact</a>
                         </li>
                     </ul>
                     <div class="ms-auto me-5 d-grid d-md-block gap-2 mb-2 mb-md-0">
@@ -88,281 +88,79 @@
             </div>
         </nav>
         <!-- Navbar Ends -->
-        <!-- Blog Banner Starts -->
-        <header class="blog-header py-5 border-bottom">
-            <div class="container">
-                <div class="row align-items-center gx-md-5">
-                    <div class="col-md-6">
-                        <div class="home-header-text-holder pe-md-5">
-                            <h1 class="fs-3 fw-normal">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum nostrum, nemo esse
-                                distinctio fugit expedita.
-                            </h1>
-                            <h2 class="fs-5 fw-light text-secondary">Lorem ipsum dolor sit, amet consectetur adipisicing
-                                elit. Maiores sit eligendi architecto unde quam sed cumque perspiciatis debitis
-                                consequuntur totam.</h2>
-                            <a href="#"
-                                class="btn btn-sm btn-outline-success mt-2 mb-3 d-inline-flex align-items-center justify-content-center"
-                                data-bs-toggle="modal" data-bs-target="#subscribe_modal">
-                                Sign Up to Newsletter
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-arrow-right ms-1" viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd"
-                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="home-header-video-holder">
-                            <video src="../assets/videos/tactsoft-office.mp4"
-                                class="object-fit-cover rounded img-fluid shadow-sm full-width" autoplay
-                                controls></video>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
-        <!-- Blog Banner Ends -->
-        <!-- Blog Post Starts -->
-        <section class="blog-post-list py-5 border-bottom">
+        <!-- Sign Up Starts -->
+        <main class="signup-content-header py-5 mb-5">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-md-9">
-                        <div class="list-group small">
-                            <div
-                                class="list-group-item text-bg-light fw-bold d-flex justify-content-between align-items-center">
-                                List of All Blog Posts
-                                <span class="badge text-bg-warning rounded-pill">50 Blog Posts Available</span>
+                    <div class="col-md-6">
+                        <div class="card text-center shadow p-3 bg-white rounded">
+                            <div class="card-body p-5">
+                                <div class="login course-image-holder">
+                                    <img class="img-fluid mb-md-0 mt-md-0 mt-2" src="../assets/images/tect-soft.jpeg"
+                                        alt="logo">
+                                    <div class="row mt-5">
+                                        <form>
+                                            <div class="row gx-3">
+                                                <div class="col-md-6">
+                                                    <div class="mb-3">
+                                                        <input type="text" class="form-control" id="firstName"
+                                                            placeholder="First Name">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="mb-3">
+                                                        <input type="text" class="form-control" id="lastName"
+                                                            placeholder="Last Name">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="mb-3">
+                                                        <input type="email" class="form-control" id="userEmail"
+                                                            placeholder="Email">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="mb-3">
+                                                        <input type="password" class="form-control" id="userPassword"
+                                                            placeholder="Password">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="mb-3">
+                                                        <input type="password" class="form-control"
+                                                            id="confirmUserPassword" placeholder="Confirm Password">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="mb-3">
+                                                        <input type="date" class="form-control" id="userBirthDay">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <button type="submit"
+                                                class="btn btn-outline-success w-100 my-3">Submit</button>
+                                            <p>Already Registered? <a href="#" data-bs-toggle="modal"
+                                                    data-bs-target="#login_modal"
+                                                    class="text-success text-decoration-none fw-bold">Sign In</a>
+                                            </p>
+                                        </form>
+                                    </div>
+                                </div>
                             </div>
-                            <a href="single-post.html" class="list-group-item list-group-item-action">
-                                <div class="row align-items-center g-3">
-                                    <div class="col-md-4">
-                                        <div class="course-image-holder">
-                                            <img class="rounded img-fluid mb-md-0 mt-md-0 mt-2"
-                                                src="../assets/images/angular.jpg" alt="angular">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-8">
-                                        <h5>Lorem ipsum dolor sit amet.</h5>
-                                        <p class="text-secondary">
-                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad repellendus
-                                            perferendis esse cum repellat expedita est totam vitae! Rem excepturi
-                                            perspiciatis nobis eum autem itaque id officiis fugiat odit ullam?
-                                        </p>
-                                        <p class="d-inline-flex align-items-center">
-                                            <span class="badge text-bg-dark rounded-pill me-2">
-                                                <strong>Posted on:&nbsp;</strong>
-                                                <span class="fw-light">5th March, 2023</span>
-                                            </span>
-                                            <span class="badge text-bg-dark rounded-pill me-2">
-                                                <strong>Category:&nbsp;</strong>
-                                                <span class="fw-light">Technology</span>
-                                            </span>
-                                            <span class="badge text-bg-dark rounded-pill me-2">
-                                                <strong>Author:&nbsp;</strong>
-                                                <span class="fw-light">TACTSOFT</span>
-                                            </span>
-                                        </p>
-                                    </div>
-                                </div>
-                            </a>
-                            <a href="single-post.html" class="list-group-item list-group-item-action">
-                                <div class="row align-items-center g-3">
-                                    <div class="col-md-4">
-                                        <div class="course-image-holder">
-                                            <img class="rounded img-fluid mb-md-0 mt-md-0 mt-2"
-                                                src="../assets/images/angular.jpg" alt="angular">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-8">
-                                        <h5>Lorem ipsum dolor sit amet.</h5>
-                                        <p class="text-secondary">
-                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad repellendus
-                                            perferendis esse cum repellat expedita est totam vitae! Rem excepturi
-                                            perspiciatis nobis eum autem itaque id officiis fugiat odit ullam?
-                                        </p>
-                                        <p class="d-inline-flex align-items-center">
-                                            <span class="badge text-bg-dark rounded-pill me-2">
-                                                <strong>Posted on:&nbsp;</strong>
-                                                <span class="fw-light">5th March, 2023</span>
-                                            </span>
-                                            <span class="badge text-bg-dark rounded-pill me-2">
-                                                <strong>Category:&nbsp;</strong>
-                                                <span class="fw-light">Technology</span>
-                                            </span>
-                                            <span class="badge text-bg-dark rounded-pill me-2">
-                                                <strong>Author:&nbsp;</strong>
-                                                <span class="fw-light">TACTSOFT</span>
-                                            </span>
-                                        </p>
-                                    </div>
-                                </div>
-                            </a>
-                            <a href="single-post.html" class="list-group-item list-group-item-action">
-                                <div class="row align-items-center g-3">
-                                    <div class="col-md-4">
-                                        <div class="course-image-holder">
-                                            <img class="rounded img-fluid mb-md-0 mt-md-0 mt-2"
-                                                src="../assets/images/angular.jpg" alt="angular">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-8">
-                                        <h5>Lorem ipsum dolor sit amet.</h5>
-                                        <p class="text-secondary">
-                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad repellendus
-                                            perferendis esse cum repellat expedita est totam vitae! Rem excepturi
-                                            perspiciatis nobis eum autem itaque id officiis fugiat odit ullam?
-                                        </p>
-                                        <p class="d-inline-flex align-items-center">
-                                            <span class="badge text-bg-dark rounded-pill me-2">
-                                                <strong>Posted on:&nbsp;</strong>
-                                                <span class="fw-light">5th March, 2023</span>
-                                            </span>
-                                            <span class="badge text-bg-dark rounded-pill me-2">
-                                                <strong>Category:&nbsp;</strong>
-                                                <span class="fw-light">Technology</span>
-                                            </span>
-                                            <span class="badge text-bg-dark rounded-pill me-2">
-                                                <strong>Author:&nbsp;</strong>
-                                                <span class="fw-light">TACTSOFT</span>
-                                            </span>
-                                        </p>
-                                    </div>
-                                </div>
-                            </a>
-                            <a href="single-post.html" class="list-group-item list-group-item-action">
-                                <div class="row align-items-center g-3">
-                                    <div class="col-md-4">
-                                        <div class="course-image-holder">
-                                            <img class="rounded img-fluid mb-md-0 mt-md-0 mt-2"
-                                                src="../assets/images/angular.jpg" alt="angular">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-8">
-                                        <h5>Lorem ipsum dolor sit amet.</h5>
-                                        <p class="text-secondary">
-                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad repellendus
-                                            perferendis esse cum repellat expedita est totam vitae! Rem excepturi
-                                            perspiciatis nobis eum autem itaque id officiis fugiat odit ullam?
-                                        </p>
-                                        <p class="d-inline-flex align-items-center">
-                                            <span class="badge text-bg-dark rounded-pill me-2">
-                                                <strong>Posted on:&nbsp;</strong>
-                                                <span class="fw-light">5th March, 2023</span>
-                                            </span>
-                                            <span class="badge text-bg-dark rounded-pill me-2">
-                                                <strong>Category:&nbsp;</strong>
-                                                <span class="fw-light">Technology</span>
-                                            </span>
-                                            <span class="badge text-bg-dark rounded-pill me-2">
-                                                <strong>Author:&nbsp;</strong>
-                                                <span class="fw-light">TACTSOFT</span>
-                                            </span>
-                                        </p>
-                                    </div>
-                                </div>
-                            </a>
-                            <a href="single-post.html" class="list-group-item list-group-item-action">
-                                <div class="row align-items-center g-3">
-                                    <div class="col-md-4">
-                                        <div class="course-image-holder">
-                                            <img class="rounded img-fluid mb-md-0 mt-md-0 mt-2"
-                                                src="../assets/images/angular.jpg" alt="angular">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-8">
-                                        <h5>Lorem ipsum dolor sit amet.</h5>
-                                        <p class="text-secondary">
-                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad repellendus
-                                            perferendis esse cum repellat expedita est totam vitae! Rem excepturi
-                                            perspiciatis nobis eum autem itaque id officiis fugiat odit ullam?
-                                        </p>
-                                        <p class="d-inline-flex align-items-center">
-                                            <span class="badge text-bg-dark rounded-pill me-2">
-                                                <strong>Posted on:&nbsp;</strong>
-                                                <span class="fw-light">5th March, 2023</span>
-                                            </span>
-                                            <span class="badge text-bg-dark rounded-pill me-2">
-                                                <strong>Category:&nbsp;</strong>
-                                                <span class="fw-light">Technology</span>
-                                            </span>
-                                            <span class="badge text-bg-dark rounded-pill me-2">
-                                                <strong>Author:&nbsp;</strong>
-                                                <span class="fw-light">TACTSOFT</span>
-                                            </span>
-                                        </p>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="list-group small mb-3">
-                            <div class="list-group-item text-bg-light fw-bold">
-                                Archives
-                            </div>
-                            <a href="#"
-                                class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
-                                2023
-                                <span class="badge text-bg-warning rounded-pill">15</span>
-                            </a>
-                            <a href="#"
-                                class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
-                                2022
-                                <span class="badge text-bg-warning rounded-pill">5</span>
-                            </a>
-                            <a href="#"
-                                class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
-                                2021
-                                <span class="badge text-bg-warning rounded-pill">5</span>
-                            </a>
-                            <a href="#"
-                                class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
-                                2020
-                                <span class="badge text-bg-warning rounded-pill">5</span>
-                            </a>
-                            <a href="#"
-                                class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
-                                2019
-                                <span class="badge text-bg-warning rounded-pill">5</span>
-                            </a>
-                        </div>
-                        <div class="list-group small mb-3">
-                            <div class="list-group-item text-bg-light fw-bold">
-                                Categories
-                            </div>
-                            <a href="#"
-                                class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
-                                Technology
-                                <span class="badge text-bg-warning rounded-pill">15</span>
-                            </a>
-                            <a href="#"
-                                class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
-                                Tutorials
-                                <span class="badge text-bg-warning rounded-pill">5</span>
-                            </a>
-                            <a href="#"
-                                class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
-                                Tips &amp; Tricks
-                                <span class="badge text-bg-warning rounded-pill">5</span>
-                            </a>
-                            <a href="#"
-                                class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
-                                Reviews
-                                <span class="badge text-bg-warning rounded-pill">5</span>
-                            </a>
-                            <a href="#"
-                                class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
-                                Acomplishments
-                                <span class="badge text-bg-warning rounded-pill">5</span>
-                            </a>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- Blog Post Ends -->
+        </main>
+        <!-- Sign Up Ends -->
         <!-- Subscribe Starts -->
         <section class="subscribe py-5">
             <div class="container">
@@ -507,14 +305,14 @@
             </a>
         </section>
         <!-- Sticky Footer Ends -->
-        <!-- Subscribe Modal Starts -->
-        <div class="modal fade" id="subscribe_modal" tabindex="-1" aria-labelledby="subscribe_modal" aria-hidden="true"
+        <!-- Contact Modal Starts -->
+        <div class="modal fade" id="contact_modal" tabindex="-1" aria-labelledby="contact_modal" aria-hidden="true"
             data-bs-backdrop="static" data-bs-keyboard="false">
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
                     <div class="modal-header text-bg-dark">
                         <h5 class="modal-title">
-                            Subscribe to Newsletters
+                            Get Help
                         </h5>
                         <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
                             aria-label="Close"></button>
@@ -538,8 +336,24 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="mb-2">
-                                        <input type="email" class="form-control form-control-sm"
-                                            placeholder="Your Email" required>
+                                        <input type="email" class="form-control form-control-sm" placeholder="Email"
+                                            required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="mb-2">
+                                        <input type="text" class="form-control form-control-sm" placeholder="Subject"
+                                            required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="mb-2">
+                                        <textarea class="form-control form-control-sm" cols="30" rows="5"
+                                            placeholder="Message"></textarea>
                                     </div>
                                 </div>
                             </div>
@@ -566,7 +380,7 @@
                 </div>
             </div>
         </div>
-        <!-- Subscribe Modal Ends -->
+        <!-- Contact Modal Ends -->
         <!-- Login Modal Starts -->
         <div class="modal fade" id="login_modal" tabindex="-1" aria-labelledby="login_modal" aria-hidden="true"
             data-bs-backdrop="static" data-bs-keyboard="false">
@@ -574,7 +388,8 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <div class="login course-image-holder">
-                            <img class="img-fluid mb-md-0 mt-md-0 mt-2" src="../assets/images/tect-soft.jpeg" alt="logo">
+                            <img class="img-fluid mb-md-0 mt-md-0 mt-2" src="../assets/images/tect-soft.jpeg"
+                                alt="logo">
                         </div>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
@@ -583,15 +398,16 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="mb-2">
-                                        <input type="email" class="form-control form-control-sm" placeholder="Email" required>
+                                        <input type="email" class="form-control form-control-sm" placeholder="Email"
+                                            required>
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="mb-2">
-                                        <input type="password" class="form-control form-control-sm" placeholder="Password"
-                                            required>
+                                        <input type="password" class="form-control form-control-sm"
+                                            placeholder="Password" required>
                                     </div>
                                 </div>
                             </div>

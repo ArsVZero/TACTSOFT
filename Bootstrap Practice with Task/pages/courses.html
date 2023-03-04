@@ -46,11 +46,11 @@
                             <a href="faq.html" class="nav-link">FAQ's</a>
                         </li>
                         <li class="nav-item">
-                            <a href="index.html" class="nav-link">Contact</a>
+                            <a href="contact.html" class="nav-link">Contact</a>
                         </li>
                     </ul>
                     <div class="ms-auto me-5 d-grid d-md-block gap-2 mb-2 mb-md-0">
-                        <a href="#"
+                        <a href="signup.html"
                             class="btn btn-sm btn-outline-primary me-2 align-items-center d-inline-flex justify-content-center">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                 class="bi bi-person-plus-fill me-1" viewBox="0 0 16 16">
@@ -60,7 +60,7 @@
                             </svg>
                             Sign Up
                         </a>
-                        <a href="#"
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#login_modal"
                             class="btn btn-sm btn-outline-info align-items-center d-inline-flex justify-content-center">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                 class="bi bi-box-arrow-in-right me-1" viewBox="0 0 16 16">
@@ -180,7 +180,7 @@
                                 List of All Courses
                                 <span class="badge text-bg-warning rounded-pill">50 Courses Available</span>
                             </div>
-                            <a href="#" class="list-group-item list-group-item-action">
+                            <a href="single-course.html" class="list-group-item list-group-item-action">
                                 <div class="row align-items-center g-3">
                                     <div class="col-md-4">
                                         <div class="course-image-holder">
@@ -219,7 +219,7 @@
                                     </div>
                                 </div>
                             </a>
-                            <a href="#" class="list-group-item list-group-item-action">
+                            <a href="single-course.html" class="list-group-item list-group-item-action">
                                 <div class="row align-items-center g-3">
                                     <div class="col-md-4">
                                         <div class="course-image-holder">
@@ -258,7 +258,7 @@
                                     </div>
                                 </div>
                             </a>
-                            <a href="#" class="list-group-item list-group-item-action">
+                            <a href="single-course.html" class="list-group-item list-group-item-action">
                                 <div class="row align-items-center g-3">
                                     <div class="col-md-4">
                                         <div class="course-image-holder">
@@ -297,7 +297,7 @@
                                     </div>
                                 </div>
                             </a>
-                            <a href="#" class="list-group-item list-group-item-action">
+                            <a href="single-course.html" class="list-group-item list-group-item-action">
                                 <div class="row align-items-center g-3">
                                     <div class="col-md-4">
                                         <div class="course-image-holder">
@@ -336,7 +336,7 @@
                                     </div>
                                 </div>
                             </a>
-                            <a href="#" class="list-group-item list-group-item-action">
+                            <a href="single-course.html" class="list-group-item list-group-item-action">
                                 <div class="row align-items-center g-3">
                                     <div class="col-md-4">
                                         <div class="course-image-holder">
@@ -524,6 +524,58 @@
             </a>
         </section>
         <!-- Sticky Footer Ends -->
+        <!-- Login Modal Starts -->
+        <div class="modal fade" id="login_modal" tabindex="-1" aria-labelledby="login_modal" aria-hidden="true"
+            data-bs-backdrop="static" data-bs-keyboard="false">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div class="login course-image-holder">
+                            <img class="img-fluid mb-md-0 mt-md-0 mt-2" src="../assets/images/tect-soft.jpeg" alt="logo">
+                        </div>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="#" method="post">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="mb-2">
+                                        <input type="email" class="form-control form-control-sm" placeholder="Email" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="mb-2">
+                                        <input type="password" class="form-control form-control-sm" placeholder="Password"
+                                            required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="d-grid mb-2">
+                                        <button type="submit"
+                                            class="btn btn-sm btn-outline-success d-inline-flex align-items-center justify-content-center my-2">
+                                            Sign In
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row row justify-content-center">
+                                <div class="col-md-12">
+                                    <div class=" small mb-2 d-inline-flex align-content-center justify-content-center">
+                                        <p>New to TACTSOFT? <a href="signup.html"
+                                                class="text-success text-decoration-none fw-bold">Register</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Login Modal Ends -->
         <script src="../assets/js/bootstrap.bundle.min.js"></script>
         <script src="../assets/js/main.js" async defer></script>
     </body>
