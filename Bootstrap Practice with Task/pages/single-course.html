@@ -40,10 +40,10 @@
                             <a href="courses.html" class="nav-link active">Courses</a>
                         </li>
                         <li class="nav-item">
-                            <a href="index.html" class="nav-link">Blog</a>
+                            <a href="blog.html" class="nav-link">Blog</a>
                         </li>
                         <li class="nav-item">
-                            <a href="index.html" class="nav-link">FAQ's</a>
+                            <a href="faq.html" class="nav-link">FAQ's</a>
                         </li>
                         <li class="nav-item">
                             <a href="index.html" class="nav-link">Contact</a>
@@ -238,265 +238,114 @@
             </div>
         </header>
         <!-- Courses Banner Ends -->
-        <!-- Courses List Starts -->
-        <section class="courses-list py-5">
+        <!-- Course Description Starts -->
+        <section class="single-course-description py-5 border-bottom">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-3">
-                        <div class="list-group small mb-3">
-                            <div class="list-group-item text-bg-light fw-bold">
-                                Course Categories
-                            </div>
-                            <a href="#"
-                                class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
-                                Premium Courses
-                                <span class="badge text-bg-warning rounded-pill">15</span>
-                            </a>
-                            <a href="#"
-                                class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
-                                Free Courses
-                                <span class="badge text-bg-warning rounded-pill">5</span>
-                            </a>
-                        </div>
-                        <div class="list-group small mb-3">
-                            <div class="list-group-item text-bg-light fw-bold">
-                                Course by Topics
-                            </div>
-                            <a href="#"
-                                class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
-                                Frontend Development Courses
-                                <span class="badge text-bg-warning rounded-pill">15</span>
-                            </a>
-                            <a href="#"
-                                class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
-                                Backend Development Courses
-                                <span class="badge text-bg-warning rounded-pill">5</span>
-                            </a>
-                            <a href="#"
-                                class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
-                                UI/UX Design Courses
-                                <span class="badge text-bg-warning rounded-pill">5</span>
-                            </a>
-                            <a href="#"
-                                class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
-                                Soft-skill Courses
-                                <span class="badge text-bg-warning rounded-pill">5</span>
-                            </a>
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <div class="course-description-image mb-md-0 mb-3">
+                            <img class="img-fluid rounded full-width" src="../assets/images/angular.jpg" alt="core">
                         </div>
                     </div>
-                    <div class="col-md-9">
-                        <div class="list-group small">
-                            <div
-                                class="list-group-item text-bg-light fw-bold d-flex justify-content-between align-items-center">
-                                List of All Courses
-                                <span class="badge text-bg-warning rounded-pill">50 Courses Available</span>
+                    <div class="col-md-6">
+                        <div class="course-description-content small ps-md-5">
+                            <h3 class="fs-4">Course Description</h3>
+                            <hr class="w-75">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus porro culpa corporis,
+                                deleniti fuga
+                                accusantium adipisci rerum sint ad eveniet facere similique ea voluptates praesentium
+                                voluptate illum fugiat
+                                inventore numquam.</p>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus porro culpa corporis,
+                                deleniti fuga
+                                accusantium
+                                adipisci rerum sint ad eveniet facere similique ea voluptates praesentium voluptate
+                                illum fugiat inventore
+                                numquam.
+                            </p>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus porro culpa corporis,
+                                deleniti fuga accusantium
+                                adipisci rerum sint ad eveniet facere similique ea voluptates praesentium voluptate
+                                illum fugiat inventore numquam.
+                            </p>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus porro culpa corporis,
+                                deleniti fuga accusantium
+                                adipisci rerum sint ad eveniet facere similique ea voluptates praesentium voluptate
+                                illum fugiat inventore numquam.
+                            </p>
                             </div>
-                            <a href="#" class="list-group-item list-group-item-action">
-                                <div class="row align-items-center g-3">
-                                    <div class="col-md-4">
-                                        <div class="course-image-holder">
-                                            <img class="rounded img-fluid mb-md-0 mt-md-0 mt-2"
-                                                src="../assets/images/angular.jpg" alt="angular">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-8">
-                                        <h5>Lorem ipsum dolor sit amet.</h5>
-                                        <p class="text-secondary">
-                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad repellendus
-                                            perferendis esse cum repellat expedita est totam vitae! Rem excepturi
-                                            perspiciatis nobis eum autem itaque id officiis fugiat odit ullam?
-                                        </p>
-                                        <p class="d-inline-flex align-items-center">
-                                            <span
-                                                class="rounded-pill text-bg-warning px-2 py-1 small d-inline-flex align-item-center">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                    fill="currentColor" class="bi bi-star-fill me-2"
-                                                    viewBox="0 0 16 16">
-                                                    <path
-                                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                                                </svg>
-                                                Rating: 4.5
-                                            </span>
-                                            <span
-                                                class="rounded-pill text-bg-info px-2 py-1 small d-inline-flex align-item-center ms-1">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                    fill="currentColor" class="bi bi-cash me-2" viewBox="0 0 16 16">
-                                                    <path d="M8 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4z" />
-                                                    <path
-                                                        d="M0 4a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V4zm3 0a2 2 0 0 1-2 2v4a2 2 0 0 1 2 2h10a2 2 0 0 1 2-2V6a2 2 0 0 1-2-2H3z" />
-                                                </svg>
-                                                10000 BDT
-                                            </span>
-                                        </p>
-                                    </div>
-                                </div>
-                            </a>
-                            <a href="#" class="list-group-item list-group-item-action">
-                                <div class="row align-items-center g-3">
-                                    <div class="col-md-4">
-                                        <div class="course-image-holder">
-                                            <img class="rounded img-fluid mb-md-0 mt-md-0 mt-2"
-                                                src="../assets/images/eoi-rfp.jpg" alt="angular">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-8">
-                                        <h5>Lorem ipsum dolor sit amet.</h5>
-                                        <p class="text-secondary">
-                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad repellendus
-                                            perferendis esse cum repellat expedita est totam vitae! Rem excepturi
-                                            perspiciatis nobis eum autem itaque id officiis fugiat odit ullam?
-                                        </p>
-                                        <p class="d-inline-flex align-items-center">
-                                            <span
-                                                class="rounded-pill text-bg-warning px-2 py-1 small d-inline-flex align-item-center">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                    fill="currentColor" class="bi bi-star-fill me-2"
-                                                    viewBox="0 0 16 16">
-                                                    <path
-                                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                                                </svg>
-                                                Rating: 4.5
-                                            </span>
-                                            <span
-                                                class="rounded-pill text-bg-info px-2 py-1 small d-inline-flex align-item-center ms-1">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                    fill="currentColor" class="bi bi-cash me-2" viewBox="0 0 16 16">
-                                                    <path d="M8 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4z" />
-                                                    <path
-                                                        d="M0 4a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V4zm3 0a2 2 0 0 1-2 2v4a2 2 0 0 1 2 2h10a2 2 0 0 1 2-2V6a2 2 0 0 1-2-2H3z" />
-                                                </svg>
-                                                10000 BDT
-                                            </span>
-                                        </p>
-                                    </div>
-                                </div>
-                            </a>
-                            <a href="#" class="list-group-item list-group-item-action">
-                                <div class="row align-items-center g-3">
-                                    <div class="col-md-4">
-                                        <div class="course-image-holder">
-                                            <img class="rounded img-fluid mb-md-0 mt-md-0 mt-2"
-                                                src="../assets/images/Mern-full-stack.jpg" alt="angular">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-8">
-                                        <h5>Lorem ipsum dolor sit amet.</h5>
-                                        <p class="text-secondary">
-                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad repellendus
-                                            perferendis esse cum repellat expedita est totam vitae! Rem excepturi
-                                            perspiciatis nobis eum autem itaque id officiis fugiat odit ullam?
-                                        </p>
-                                        <p class="d-inline-flex align-items-center">
-                                            <span
-                                                class="rounded-pill text-bg-warning px-2 py-1 small d-inline-flex align-item-center">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                    fill="currentColor" class="bi bi-star-fill me-2"
-                                                    viewBox="0 0 16 16">
-                                                    <path
-                                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                                                </svg>
-                                                Rating: 4.5
-                                            </span>
-                                            <span
-                                                class="rounded-pill text-bg-info px-2 py-1 small d-inline-flex align-item-center ms-1">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                    fill="currentColor" class="bi bi-cash me-2" viewBox="0 0 16 16">
-                                                    <path d="M8 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4z" />
-                                                    <path
-                                                        d="M0 4a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V4zm3 0a2 2 0 0 1-2 2v4a2 2 0 0 1 2 2h10a2 2 0 0 1 2-2V6a2 2 0 0 1-2-2H3z" />
-                                                </svg>
-                                                10000 BDT
-                                            </span>
-                                        </p>
-                                    </div>
-                                </div>
-                            </a>
-                            <a href="#" class="list-group-item list-group-item-action">
-                                <div class="row align-items-center g-3">
-                                    <div class="col-md-4">
-                                        <div class="course-image-holder">
-                                            <img class="rounded img-fluid mb-md-0 mt-md-0 mt-2"
-                                                src="../assets/images/asp-core-angular.jpg" alt="angular">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-8">
-                                        <h5>Lorem ipsum dolor sit amet.</h5>
-                                        <p class="text-secondary">
-                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad repellendus
-                                            perferendis esse cum repellat expedita est totam vitae! Rem excepturi
-                                            perspiciatis nobis eum autem itaque id officiis fugiat odit ullam?
-                                        </p>
-                                        <p class="d-inline-flex align-items-center">
-                                            <span
-                                                class="rounded-pill text-bg-warning px-2 py-1 small d-inline-flex align-item-center">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                    fill="currentColor" class="bi bi-star-fill me-2"
-                                                    viewBox="0 0 16 16">
-                                                    <path
-                                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                                                </svg>
-                                                Rating: 4.5
-                                            </span>
-                                            <span
-                                                class="rounded-pill text-bg-info px-2 py-1 small d-inline-flex align-item-center ms-1">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                    fill="currentColor" class="bi bi-cash me-2" viewBox="0 0 16 16">
-                                                    <path d="M8 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4z" />
-                                                    <path
-                                                        d="M0 4a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V4zm3 0a2 2 0 0 1-2 2v4a2 2 0 0 1 2 2h10a2 2 0 0 1 2-2V6a2 2 0 0 1-2-2H3z" />
-                                                </svg>
-                                                10000 BDT
-                                            </span>
-                                        </p>
-                                    </div>
-                                </div>
-                            </a>
-                            <a href="#" class="list-group-item list-group-item-action">
-                                <div class="row align-items-center g-3">
-                                    <div class="col-md-4">
-                                        <div class="course-image-holder">
-                                            <img class="rounded img-fluid mb-md-0 mt-md-0 mt-2"
-                                                src="../assets/images/java-&-spring-framework.jpg" alt="angular">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-8">
-                                        <h5>Lorem ipsum dolor sit amet.</h5>
-                                        <p class="text-secondary">
-                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad repellendus
-                                            perferendis esse cum repellat expedita est totam vitae! Rem excepturi
-                                            perspiciatis nobis eum autem itaque id officiis fugiat odit ullam?
-                                        </p>
-                                        <p class="d-inline-flex align-items-center">
-                                            <span
-                                                class="rounded-pill text-bg-warning px-2 py-1 small d-inline-flex align-item-center">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                    fill="currentColor" class="bi bi-star-fill me-2"
-                                                    viewBox="0 0 16 16">
-                                                    <path
-                                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                                                </svg>
-                                                Rating: 4.5
-                                            </span>
-                                            <span
-                                                class="rounded-pill text-bg-info px-2 py-1 small d-inline-flex align-item-center ms-1">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                    fill="currentColor" class="bi bi-cash me-2" viewBox="0 0 16 16">
-                                                    <path d="M8 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4z" />
-                                                    <path
-                                                        d="M0 4a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V4zm3 0a2 2 0 0 1-2 2v4a2 2 0 0 1 2 2h10a2 2 0 0 1 2-2V6a2 2 0 0 1-2-2H3z" />
-                                                </svg>
-                                                10000 BDT
-                                            </span>
-                                        </p>
-                                    </div>
-                                </div>
-                            </a>
+                            </div>
+                </div>
+                </div>
+        </section>
+        <!-- Course Description Ends -->
+        <!-- Course Content Starts -->
+        <section class="course-content py-5 border-bottom">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6 order-md-2">
+                        <div class="course-content-image mb-md-0 mb-3">
+                            <img class="rounded img-fluid" src="../assets/images/asp-core-angular.jpg" alt="java">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="course-content small pe-md-5">
+                            <h3 class="fs-4">What's covered in this course</h3>
+                            <hr class="w-75">
+                            <ul>
+                                <li>
+                                    <h4 class="fs-6">Module 01: Introduction to Microsoft.Net/Microsoft.Net Core</h4>
+                                </li>
+                                <li>
+                                    <h4 class="fs-6">Module 02: Learn Programming Using C#.Net</h4>
+                                </li>
+                                <li>
+                                    <h4 class="fs-6">Module 03: Introduction to MSSQL Server</h4>
+                                </li>
+                                <li>
+                                    <h4 class="fs-6">Module 04: Understanding HTML4 &amp; HTML5</h4>
+                                </li>
+                                <li>
+                                    <h4 class="fs-6">Module 05: Apply Style using CSS</h4>
+                                </li>
+                                <li>
+                                    <h4 class="fs-6">Module 06: Intractivity using JavaScript</h4>
+                                </li>
+                                <li>
+                                    <h4 class="fs-6">Module 07: Bootstrap 5.x</h4>
+                                </li>
+                                <li>
+                                    <h4 class="fs-6">Module 08: Client Side Interactions using JQuery</h4>
+                                </li>
+                                <li>
+                                    <h4 class="fs-6">Module 09: Develop Web App using ASP.NET Core MVC</h4>
+                                </li>
+                                <li>
+                                    <h4 class="fs-6">Module 10: Manipulate Data using Linq & Entity Core</h4>
+                                </li>
+                                <li>
+                                    <h4 class="fs-6">Module 11: Practical- Common Features of Web Application
+                                        Development</h4>
+                                </li>
+                                <li>
+                                    <h4 class="fs-6">Module 12: Project: Inventory</h4>
+                                </li>
+                                <li>
+                                    <h4 class="fs-6">Module 13: Project Management Tools: Trello/Jira</h4>
+                                </li>
+                                <li>
+                                    <h4 class="fs-6">Module 14: Resume Preparation & Interview</h4>
+                                </li>
+                                <li>
+                                    <h4 class="fs-6">Module 15: Certification & Placement Calls</h4>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- Courses List Ends -->
+        <!-- Course Content Ends -->
         <!-- Subscribe Starts -->
         <section class="subscribe py-5">
             <div class="container">
